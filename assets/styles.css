@@ -1893,4 +1893,22 @@ pre code {
   overflow-x: scroll;
 }
 
+@media screen and (min-width: 40em) {
+  .content {
+    width: 80%;
+  }
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+table {
+  border-spacing: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
