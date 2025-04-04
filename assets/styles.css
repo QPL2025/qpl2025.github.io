@@ -1893,6 +1893,41 @@ pre code {
   overflow-x: scroll;
 }
 
+.typeset h4, .typeset .delta {
+  line-height: 3rem;
+  font-size: 1.6666666667rem;
+  margin-bottom: 0.12499rem;
+  padding-top: 0.87501rem;
+}
+@media screen and (min-width: 40em) {
+  .typeset h4, .typeset .delta {
+    font-size: 1.5214285714rem;
+    margin-bottom: 0.0705257143rem;
+    padding-top: 0.9294742857rem;
+  }
+}
+@media screen and (min-width: 50em) {
+  .typeset h4, .typeset .delta {
+    font-size: 1.5rem;
+    margin-bottom: 0.06249rem;
+    padding-top: 0.93751rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .typeset h4, .typeset .delta {
+    font-size: 1.5705882353rem;
+    margin-bottom: 0.0889605882rem;
+    padding-top: 0.9110394118rem;
+  }
+}
+@media screen and (min-width: 100em) {
+  .typeset h4, .typeset .delta {
+    font-size: 1.6368421053rem;
+    margin-bottom: 0.1138057895rem;
+    padding-top: 0.8861942105rem;
+  }
+}
+
 @media screen and (min-width: 40em) {
   .content {
     width: 80%;
