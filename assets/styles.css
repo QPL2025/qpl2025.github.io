@@ -1928,11 +1928,6 @@ pre code {
   }
 }
 
-@media screen and (min-width: 40em) {
-  .content {
-    width: 80%;
-  }
-}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
